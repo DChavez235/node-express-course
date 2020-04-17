@@ -1,0 +1,25 @@
+01. Install Node.js (https://nodejs.org/en/download/)
+02. Install Postman (https://www.postman.com/downloads/)
+03. Install git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+04. Test Installation on cmd:
+	node -v
+	npm -v
+	git --version
+05. Clone Template Repository (from github-learning-lab)
+	git clone https://github.com/DChavez235/node-express-course.git
+	cd node-express-server-intro
+	//it will be on C:\Users\<user>\node-express-course
+	//should have two files .gitignore + server.js
+06. npm init -y
+	//should create a file package.json
+07. npm install express --save
+	//folder node_modules is created
+08. make sure package.json has something like this
+	"dependencies": {
+		"express": "^4.17.1",
+	  }
+09. push file to github
+	git add .
+	git commit -m "initial file setup"
+	git push origin master
+10. 
